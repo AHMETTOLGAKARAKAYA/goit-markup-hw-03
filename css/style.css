@@ -9,7 +9,7 @@ img{
 display: flex;
 width: 1158px;
 margin:0 auto;
-padding:0 15 px;
+padding:0 15px;
 
 }
 .header-nav{
@@ -213,7 +213,7 @@ list-style: none;
     letter-spacing: 0.02em;
     color:#434455;
 }
-.footer-class{
+footer{
     background-color:#2e2f42;
 }
 .footer-p{
