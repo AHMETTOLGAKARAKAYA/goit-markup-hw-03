@@ -5,12 +5,13 @@
 img{
     display: block;
 }
-.container{
+.container-header{
 display: flex;
+}
+.container{
 width: 1158px;
 margin:0 auto;
 padding:0px 15px;
-
 }
 .header-nav{
 display: flex;
