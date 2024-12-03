@@ -9,7 +9,7 @@ img{
 display: flex;
 width: 1158px;
 margin:0 auto;
-padding:0 15px;
+padding:0px 15px;
 
 }
 .header-nav{
@@ -99,6 +99,7 @@ body{
     display: block;
     margin: 0 auto;
     min-width: 169px;
+    height: 56px;
     border:none;
     border-radius: 4px;
     background-color: #4d5ae5;
