@@ -142,7 +142,7 @@ body{
     list-style-type: none;
 }
 .comment-li{
-    width:calc((100% - 72px) / 4);
+    width:calc((100%-72px)/4);
 }
 .aboutus-baslikuc{
     margin-bottom: 8px;
@@ -214,7 +214,7 @@ padding: 120px 0;
     row-gap: 48px;
 }
 .ourportfolio-li{
-    width:calc((100% - 72px) / 4);
+    width:calc((100%-72px)/4);
 }
 .ourportfolio-div{
     padding: 32px 16px;
