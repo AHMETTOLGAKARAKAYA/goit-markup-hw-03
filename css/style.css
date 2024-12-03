@@ -5,7 +5,7 @@
 img{
     display: block;
 }
-.conta-iner{
+.container{
 display: flex;
 width: 1158px;
 margin:0 auto;
@@ -121,7 +121,7 @@ body{
     padding: 120px 0;
 
 }
-.about-us{
+.visually-hidden{
     visibility: hidden;
 }
 .aboutus-ul{
@@ -130,7 +130,7 @@ body{
     list-style-type: none;
 }
 .comment-li{
-    width: calc((100% -72px)/4);
+    width: calc((100% - 72px)/4);
 }
 .aboutus-baslikuc{
     margin-bottom: 8px;
@@ -155,7 +155,7 @@ body{
 .ourteam-ul{
     display: flex;
     gap:24px;
-list-style: none;
+    list-style: none;
 }
 .ourteam-baslikiki{
     margin-bottom:72px;
@@ -169,7 +169,7 @@ list-style: none;
 }
 .ourteam-liste{
     background-color: #ffffff;
-    width: calc((100% -72px)/4);
+    width: calc((100% - 72px)/4);
     border-radius: 0px 0px 4px 4px;
 }
 .ourteamli-div{
@@ -214,8 +214,9 @@ list-style: none;
     letter-spacing: 0.02em;
     color:#434455;
 }
-footer{
+.footer-class{
     background-color:#2e2f42;
+    padding: 100px 0px;
 }
 .footer-p{
     max-width: 264px;
@@ -226,6 +227,15 @@ footer{
 .web-studioiki{
     display: inline-block;
     margin-bottom: 16px;
+    margin-right: 76px;
+    font-family: "Raleway",sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 0.03em;
+    line-height: 1.17;
+    text-transform: uppercase;
+    color:#4d5ae5;
+    text-decoration:none
 }
 .studio-logoiki{
     color: #f4f4fd;
