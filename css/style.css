@@ -124,7 +124,7 @@ body{
 
 }
 .visually-hidden{
-    visibility: hidden;
+    display: none;
 }
 .aboutus-ul{
     display: flex;
