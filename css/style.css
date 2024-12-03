@@ -44,13 +44,15 @@ body{
     gap: 40px;
 }
 .menu{
+    
     padding: 24px 0;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
-    text-decoration:none
+    text-decoration:none;
+    gap:40px;
 }
 .menu:hover{
     color:#404bbf
@@ -64,9 +66,11 @@ body{
     
 }
 .adress-ul{
+    
     display: flex;
     gap: 40px;
     list-style-type: none;
+    text-align: right;
 }
 .mail-tel{
     font-size: 16px;
