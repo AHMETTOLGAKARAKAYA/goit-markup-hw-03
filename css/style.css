@@ -1,3 +1,17 @@
+*, 
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+    font-family: "Roboto" , sans-serif;
+    color: #434455;
+    background-color: #ffffff;
+
+}
+
 .container{
     width: 1158px;
     margin:0 auto;
@@ -16,19 +30,13 @@
 img{
     display: block;
     
-    height: auto;
-}
+    }
 .header-nav{
 display: flex;
 align-items: center;
-
+justify-content: center;
 }
-body{
-    font-family: "Roboto" , sans-serif;
-    color: #434455;
-    background-color: #ffffff;
 
-}
 .web-studio{
     margin-right: 76px;
     font-family: "Raleway",sans-serif;
@@ -68,12 +76,16 @@ body{
 .add-ress{
     
     font-style: normal;
+    display: flex;
+    margin-left: auto;
     
 }
 .adress-ul{
     
     display: flex;
     gap: 40px;
+    justify-content: center;
+    align-items: center;
     list-style-type: none;
     text-align: right;
 }
@@ -95,18 +107,22 @@ body{
     background-color: #2e2f42;
     padding: 188px 0;
 }
+.title-main .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 .ana-baslik{
-    display: block;
+    
     text-align: center;
     font-weight: 700;
     font-size:56px;
     line-height: 1.07;
     max-width: 496px;
-    height: 120;
-    top: 260px;;
     letter-spacing: 0.02em;
     color: #ffffff;
-    margin: 0 auto;
+   
 
 }
 .order-button{
@@ -140,7 +156,16 @@ body{
 
 }
 .visually-hidden{
-    display: none;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 .aboutus-ul{
     display: flex;
@@ -148,7 +173,8 @@ body{
     list-style-type: none;
 }
 .comment-li{
-    width:calc((100% - 72px ) / 4);
+    width: calc((100% - 72px) / 4);
+    flex-basis: calc((100% - 72px) / 4);
 }
 .aboutus-baslikuc{
     margin-bottom: 8px;
@@ -170,11 +196,6 @@ body{
     background-color: #f4f4fd;
     padding:120px 0;
 }
-.ourteam-ul{
-    display: flex;
-    gap:24px;
-    list-style: none;
-}
 .ourteam-baslikiki{
     margin-bottom:72px;
     font-size: 36px;
@@ -185,11 +206,22 @@ body{
     color:#2e2f42;
 
 }
+.ourteam-ul{
+    display: flex;
+    gap:24px;
+    list-style-type:none;;
+}
+
 .ourteam-liste{
     background-color: #ffffff;
     
-    width:calc((100% - 72px)/4);
-    border-radius: 0px 0px 4px 4px;
+    width: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 72px) / 4);
+  background-color: #ffffff;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  border-radius: 0px 0px 4px 4px;
+  background-color: #ffffff;
 }
 .ourteamli-div{
     
@@ -223,12 +255,11 @@ padding: 120px 0;
     list-style: none;
 }
 .ourportfolio-li{
-    width:calc((100% - 72px ) / 4);
+   
+    width:calc((100% - 72px ) / 3);
     
 }
 .our-div{
-    
-    width: 1128px;
     border: 1px solid #e7e9fc;
 }
 .ourportfolio-div{
