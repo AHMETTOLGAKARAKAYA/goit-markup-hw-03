@@ -15,6 +15,8 @@
 }
 img{
     display: block;
+    
+    height: auto;
 }
 .header-nav{
 display: flex;
@@ -96,9 +98,12 @@ body{
 .ana-baslik{
     display: block;
     text-align: center;
+    font-weight: 700;
     font-size:56px;
     line-height: 1.07;
     max-width: 496px;
+    height: 120;
+    top: 260px;;
     letter-spacing: 0.02em;
     color: #ffffff;
     margin: 0 auto;
@@ -107,6 +112,8 @@ body{
 .order-button{
     display: block;
     margin: 0 auto;
+    padding: 16px 32px;
+    margin-top: 68px;;
     min-width: 169px;
     height: 56px;
     border:none;
@@ -118,7 +125,9 @@ body{
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #ffffff;
+    border-radius: 4px;
     cursor: pointer;
+    gap: 10px;
 }
 .order-button:hover{
    background-color: #404bbf;
@@ -139,7 +148,7 @@ body{
     list-style-type: none;
 }
 .comment-li{
-    width:calc((100%-72px)/4);
+    width:calc((100% - 72px ) / 4);
 }
 .aboutus-baslikuc{
     margin-bottom: 8px;
@@ -178,10 +187,12 @@ body{
 }
 .ourteam-liste{
     background-color: #ffffff;
-    width:calc((100%-72px)/4);
+    
+    width:calc((100% - 72px)/4);
     border-radius: 0px 0px 4px 4px;
 }
 .ourteamli-div{
+    
     padding: 32px 0;
 }
 .ourteam-baslikuc{
@@ -209,15 +220,27 @@ padding: 120px 0;
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
+    list-style: none;
 }
 .ourportfolio-li{
-    width:calc((100%-72px)/4);
+    width:calc((100% - 72px ) / 4);
+    
+}
+.our-div{
+    
+    width: 1128px;
+    border: 1px solid #e7e9fc;
 }
 .ourportfolio-div{
     padding: 32px 16px;
+    width: 360px;
     border:1px solid #e7e9fc;
     margin-bottom: 8px;
-    border-top: none;                                                                                      
+    border-top: none;  
+    border-top-left-radius:4px ;
+    border-top-right-radius: 4px;  
+    gap: 8px;
+                                                                               
 }
 .ourportfolio-baslikiki{
     margin-bottom: 72px;
