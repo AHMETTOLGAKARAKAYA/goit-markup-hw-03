@@ -16,9 +16,6 @@
 img{
     display: block;
 }
-.container-header{
-display: flex;
-}
 .header-nav{
 display: flex;
 align-items: center;
